@@ -23,6 +23,7 @@ Sub Macro2()
         .SetCount NumColumns:=1
         .EvenlySpaced = False
         .LineBetween = False
+        //comment
     End With
     ActiveDocument.PageSetup.TextColumns.Add Width:=InchesToPoints(3.5), _
         Spacing:=InchesToPoints(0), EvenlySpaced:=False
